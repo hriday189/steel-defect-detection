@@ -50,7 +50,7 @@ export function AIDetectionDemo() {
     }, 40)
   }, [])
 
-  // ✅ Real backend upload — uses Vite proxy (/api → http://127.0.0.1:8000)
+  // ✅ Real backend upload — uses Vite proxy (/api → https://steel-defect-detection-3tu7.onrender.com)
   const handleFile = useCallback((file: File) => {
     // Show local preview immediately
     const reader = new FileReader()
